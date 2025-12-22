@@ -2,7 +2,9 @@
   "name": "flutter-best-theme",
   "displayName": "Flutter Best Theme",
   "description": "A VS Code theme designed for Flutter devs: clear widgets, nested brackets, and vibrant colors.",
-  "version": "0.0.1",
+  "version": "0.0.2",
+  "icon":"./assets/icon.png",
+
   "publisher": "HoussemEddineFadhli",
   "engines": {
     "vscode": "^1.107.0"
