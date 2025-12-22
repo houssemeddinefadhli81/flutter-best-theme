@@ -1,12 +1,15 @@
 {
-  "name": "Flutter Focus Prism",
+  "name": "Flutter Best Theme",
   "type": "dark",
 
   "colors": {
+    /* ================= Editor ================= */
     "editor.background": "#0D1117",
     "editor.foreground": "#ECEFF4",
     "editorCursor.foreground": "#39FF14",
+
     "editor.selectionBackground": "#1B1F2B",
+    "editor.inactiveSelectionBackground": "#141824",
     "editor.lineHighlightBackground": "#141824",
 
     "editorLineNumber.foreground": "#4B5360",
@@ -19,9 +22,73 @@
     "editorBracketMatch.border": "#39FF14",
 
     "editorWhitespace.foreground": "#2A2F3A",
+
     "editorError.foreground": "#FF4B5C",
     "editorWarning.foreground": "#FFD41D",
-    "editorInfo.foreground": "#00CED1"
+    "editorInfo.foreground": "#00CED1",
+
+    /* ================= Workbench ================= */
+    "editorGroup.background": "#0D1117",
+    "editorGroup.border": "#141824",
+
+    "sideBar.background": "#0B0F14",
+    "sideBar.foreground": "#BFC5D2",
+    "sideBar.border": "#141824",
+
+    "sideBarTitle.foreground": "#ECEFF4",
+    "sideBarSectionHeader.background": "#0D1117",
+    "sideBarSectionHeader.foreground": "#FF6EC7",
+
+    "activityBar.background": "#0B0F14",
+    "activityBar.foreground": "#39FF14",
+    "activityBar.inactiveForeground": "#4B5360",
+    "activityBar.border": "#141824",
+
+    "statusBar.background": "#0B0F14",
+    "statusBar.foreground": "#ECEFF4",
+    "statusBar.border": "#141824",
+    "statusBar.debuggingBackground": "#FFD41D",
+    "statusBar.debuggingForeground": "#0D1117",
+
+    /* ================= Tabs ================= */
+    "tab.activeBackground": "#0D1117",
+    "tab.activeForeground": "#ECEFF4",
+    "tab.activeBorder": "#39FF14",
+
+    "tab.inactiveBackground": "#0B0F14",
+    "tab.inactiveForeground": "#5B6770",
+
+    "tab.border": "#141824",
+
+    /* ================= Panels & Terminal ================= */
+    "panel.background": "#0B0F14",
+    "panel.border": "#141824",
+
+    "panelTitle.activeForeground": "#FF6EC7",
+    "panelTitle.inactiveForeground": "#5B6770",
+
+    "terminal.background": "#0B0F14",
+    "terminal.foreground": "#ECEFF4",
+    "terminalCursor.foreground": "#39FF14",
+
+    /* ================= Lists & Inputs ================= */
+    "list.activeSelectionBackground": "#1B1F2B",
+    "list.activeSelectionForeground": "#ECEFF4",
+    "list.inactiveSelectionBackground": "#141824",
+
+    "list.hoverBackground": "#141824",
+    "list.highlightForeground": "#39FF14",
+
+    "input.background": "#141824",
+    "input.foreground": "#ECEFF4",
+    "input.border": "#2C2F40",
+
+    "focusBorder": "#39FF14",
+
+    /* ================= Scrollbar ================= */
+    "scrollbarSlider.background": "#2A2F3A",
+    "scrollbarSlider.hoverBackground": "#4B5360",
+    "scrollbarSlider.activeBackground": "#39FF14"
   },
 
   "semanticHighlighting": true,
