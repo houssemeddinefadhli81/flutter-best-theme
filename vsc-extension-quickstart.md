@@ -1,28 +1,51 @@
-# Welcome to your VS Code Extension
+# Flutter Best Theme
 
-## What's in the folder
+**Flutter Best Theme** is a VS Code dark theme designed specifically for Flutter developers. It emphasizes **readability, clear widget hierarchy, and vibrant bracket colors**, making it easier to navigate nested widget trees and UI-heavy Flutter code.
 
-* This folder contains all of the files necessary for your color theme extension.
-* `package.json` - this is the manifest file that defines the location of the theme file and specifies the base theme of the theme.
-* `themes/Flutter Best Theme-color-theme.json` - the color theme definition file.
+## Features
 
-## Get up and running straight away
+- **Flutter-optimized colors** for widgets, layout, state management, and navigation.  
+- **Vibrant bracket pair colors** for easier readability of nested widget structures.  
+- **Readable async & state management keywords** (`setState`, `emit`, `async`, `await`).  
+- **Strings, numbers, and booleans** visually distinct without distraction.  
+- **Calm background and muted comments** for comfortable long coding sessions.  
 
-* Press `F5` to open a new window with your extension loaded.
-* Open the color theme picker with  the `File > Preferences > Theme > Color Theme` menu item, or use the `Preferences: Color Theme command (Ctrl+K Ctrl+T)` and pick your theme
-* Open a file that has a language associated. The languages' configured grammar will tokenize the text and assign 'scopes' to the tokens. To examine these scopes, invoke the `Developer: Inspect Editor Tokens and Scopes` command from the Command Palette (`Ctrl+Shift+P` or `Cmd+Shift+P` on Mac).
+## Installation
 
-## Make changes
+1. Open VS Code.
+2. Press `Ctrl+P` (or `Cmd+P` on macOS) and type:
 
-* Changes to the theme file are automatically applied to the Extension Development Host window.
+   ```text
+   ext install HoussemEddineFadhli.flutter-best-theme
 
-## Adopt your theme to Visual Studio Code
+Or install directly from the VS Code Marketplace￼.
+	3.	Open Command Palette (Ctrl+Shift+P / Cmd+Shift+P) → Color Theme → select Flutter Best Theme.
 
-* The token colorization is done based on standard TextMate themes. Colors are matched against one or more scopes.
+⸻
 
-To learn more about scopes and how they're used, check out the [color theme](https://code.visualstudio.com/api/extension-guides/color-theme) documentation.
+Recommended Settings
 
-## Install your extension
+To get the best experience:
 
-* To start using your extension with Visual Studio Code copy it into the `<user home>/.vscode/extensions` folder and restart Code.
-* To share your extension with the world, read on https://code.visualstudio.com/api/working-with-extensions/publishing-extension about publishing an extension.
+{
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
+  "editor.semanticHighlighting.enabled": true
+}
+
+
+⸻
+
+<img width="526" height="682" alt="Screenshot 2025-12-22 at 10 29 06" src="https://github.com/user-attachments/assets/6e468317-022e-4ee2-afa8-d5c88a26fb2f" />
+
+⸻
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+## Contributions
+
+Contributions are welcome. Please open issues or submit pull requests to help improve this extension.
+
+If you find this extension useful, consider giving it a star on GitHub.
