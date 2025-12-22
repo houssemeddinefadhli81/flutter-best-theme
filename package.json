@@ -1,14 +1,37 @@
 {
   "name": "flutter-best-theme",
-  "displayName": "flutter-best-theme",
-  "description": "",
+  "displayName": "Flutter Best Theme",
+  "description": "A VS Code theme designed for Flutter devs: clear widgets, nested brackets, and vibrant colors.",
   "version": "0.0.1",
+  "publisher": "HoussemEddineFadhli",
   "engines": {
     "vscode": "^1.107.0"
   },
   "categories": [
     "Themes"
   ],
+  "keywords": [
+    "flutter",
+    "dart",
+    "vscode",
+    "vscode-theme",
+    "dark-theme",
+    "flutter-ui",
+    "flutter-dev",
+    "programming-theme",
+    "developer-tools",
+    "ui-development",
+    "flutter-widgets",
+    "flutter-coding"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/houssemeddinefadhli81/flutter-best-theme.git"
+  },
+  "homepage": "https://github.com/houssemeddinefadhli81/flutter-best-theme",
+  "bugs": {
+    "url": "https://github.com/houssemeddinefadhli81/flutter-best-theme/issues"
+  },
   "contributes": {
     "themes": [
       {
