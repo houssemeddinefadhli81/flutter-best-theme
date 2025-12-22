@@ -1,0 +1,21 @@
+{
+  "name": "flutter-best-theme",
+  "displayName": "flutter-best-theme",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.107.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Flutter Best Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Flutter Best Theme-color-theme.json"
+      }
+    ]
+  }
+}
