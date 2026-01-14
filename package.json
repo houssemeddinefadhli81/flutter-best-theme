@@ -41,5 +41,11 @@
         "path": "./themes/Flutter Best Theme-color-theme.json"
       }
     ]
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.108.1",
+    "@vscode/test-electron": "^2.5.2",
+    "mkdirp": "^1.0.4",
+    "mocha": "^10.8.2"
   }
 }

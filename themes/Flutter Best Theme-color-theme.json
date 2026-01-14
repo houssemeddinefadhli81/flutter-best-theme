@@ -3,12 +3,12 @@
   "type": "dark",
 
   "colors": {
-    /* ================= Editor ================= */
+   
     "editor.background": "#0D1117",
     "editor.foreground": "#ECEFF4",
     "editorCursor.foreground": "#39FF14",
 
-    "editor.selectionBackground": "#1B1F2B",
+    "editor.selectionBackground": "#FFFFFF80",
     "editor.inactiveSelectionBackground": "#141824",
     "editor.lineHighlightBackground": "#141824",
 
@@ -27,7 +27,7 @@
     "editorWarning.foreground": "#FFD41D",
     "editorInfo.foreground": "#00CED1",
 
-    /* ================= Workbench ================= */
+   
     "editorGroup.background": "#0D1117",
     "editorGroup.border": "#141824",
 
@@ -50,7 +50,7 @@
     "statusBar.debuggingBackground": "#FFD41D",
     "statusBar.debuggingForeground": "#0D1117",
 
-    /* ================= Tabs ================= */
+   
     "tab.activeBackground": "#0D1117",
     "tab.activeForeground": "#ECEFF4",
     "tab.activeBorder": "#39FF14",
@@ -60,7 +60,7 @@
 
     "tab.border": "#141824",
 
-    /* ================= Panels & Terminal ================= */
+   
     "panel.background": "#0B0F14",
     "panel.border": "#141824",
 
@@ -71,7 +71,7 @@
     "terminal.foreground": "#ECEFF4",
     "terminalCursor.foreground": "#39FF14",
 
-    /* ================= Lists & Inputs ================= */
+   
     "list.activeSelectionBackground": "#1B1F2B",
     "list.activeSelectionForeground": "#ECEFF4",
     "list.inactiveSelectionBackground": "#141824",
@@ -85,7 +85,7 @@
 
     "focusBorder": "#39FF14",
 
-    /* ================= Scrollbar ================= */
+   
     "scrollbarSlider.background": "#2A2F3A",
     "scrollbarSlider.hoverBackground": "#4B5360",
     "scrollbarSlider.activeBackground": "#39FF14"
