@@ -2,11 +2,11 @@
   "name": "flutter-best-theme",
   "displayName": "Flutter Best Theme",
   "description": "A VS Code theme designed for Flutter devs: clear widgets, nested brackets, and vibrant colors.",
-  "version": "0.0.3",
+  "version": "0.0.7",
   "publisher": "HoussemEddineFadhli",
   "icon": "assets/icon.png",
   "engines": {
-    "vscode": "^1.107.0"
+    "vscode": "^1.108.0"
   },
   "categories": [
     "Themes"
@@ -41,5 +41,11 @@
         "path": "./themes/Flutter Best Theme-color-theme.json"
       }
     ]
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.108.1",
+    "@vscode/test-electron": "^2.5.2",
+    "mkdirp": "^1.0.4",
+    "mocha": "^10.8.2"
   }
 }
